@@ -1,0 +1,37 @@
+name: Auto Deploy hugo
+on: [push]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+        with:
+          submodules: recursive # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: ${{ vars.HUGO_VERSION || 'latest' }}
+          extended: true
+      - name: Build Hugo static files
+        run: hugo --minify
+      - name: Deploy to Github Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.GP_DEPLOY_KEY }}
+          external_repository: Lruihao/lruihao.github.io
+          publish_branch: main
+          publish_dir: ./public
+          commit_message: ${{ github.event.head_commit.message }}
+      - name: Install coscmd
+        run: sudo pip install coscmd
+      - name: Configure coscmd
+        env:
+          COS_SECRET_ID: ${{ secrets.COS_SECRET_ID }}
+          COS_SECRET_KEY: ${{ secrets.COS_SECRET_KEY }}
+          COS_BUCKET_NAME: blog-1256932288 # Change for yourself
+          COS_BUCKET_REGION: ap-chengdu # Change for yourself
+        run: coscmd config -a $COS_SECRET_ID -s $COS_SECRET_KEY -b $COS_BUCKET_NAME -r $COS_BUCKET_REGION
+      - name: Deploy to COS Bucket
+        run: coscmd upload -r -s --delete -f public/ /
