@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* 保留原有样式 */
+        .formula {
+    display: flex;
+    align-items: center;
+    font-family: 'Caveat', cursive;
+    font-size: 28px;
+    color: #acb1b9;
+    margin: 20px 0 100px 0;
+    justify-content: center; /* 新增：水平居中 */
+    text-align: center;      /* 新增：确保内部文本也居中（虽然flex布局下通常不需要） */
+    width: 100%;             /* 可选：设置宽度为100%，但通常不是必需的，除非有特定布局需求 */
+}
+
+        .fraction {
+            display: inline-flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 5px;
+            vertical-align: middle;
+        }
+
+        .fraction-line {
+            width: 100%;
+            height: 2px;
+            background-color: #acb1b9;
+            margin: 10px 0 10px 0;
+        }
+
+    </style>
+     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="formula">
+        <div class="fraction">
+            <span class="numerator">
+                ( <i class="fa-regular fa-face-smile-beam " style="color:#acb1b9;font-size: 0.78em;"></i> + <i class="fa-solid fa-chart-line fa-rotate-180" style="color: #acb1b9; font-size: 0.78em;"></i> )<sup>365</sup>
+            </span>
+            <div class="fraction-line"></div>
+            <span class="denominator">
+                ( <i class="fa-regular fa-face-sad-tear" style="color:#acb1b9;font-size: 0.78em;"></i> − <i class="fa-solid fa-chart-line fa-rotate-270" style="color: #acb1b9; font-size: 0.78em;"></i> )<sup>365</sup>
+            </span>
+        </div>
+        <span class="equals">=</span>
+        <span class="base">
+            2<sup>10</sup>
+        </span>
+    </div>
+</body>
+
+</html>
+
+
