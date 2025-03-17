@@ -20,7 +20,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           deploy_key: ${{ secrets.GP_DEPLOY_KEY }}
-          external_repository: Lruihao/lruihao.github.io
+          external_repository: dehongwan/dehongwan.github.io
           publish_branch: main
           publish_dir: ./public
           commit_message: ${{ github.event.head_commit.message }}
@@ -30,8 +30,8 @@ jobs:
         env:
           COS_SECRET_ID: ${{ secrets.COS_SECRET_ID }}
           COS_SECRET_KEY: ${{ secrets.COS_SECRET_KEY }}
-          COS_BUCKET_NAME: blog-1256932288 # Change for yourself
-          COS_BUCKET_REGION: ap-chengdu # Change for yourself
+          COS_BUCKET_NAME: blog-1349039039 # Change for yourself
+          COS_BUCKET_REGION: ap-shanghai # Change for yourself
         run: coscmd config -a $COS_SECRET_ID -s $COS_SECRET_KEY -b $COS_BUCKET_NAME -r $COS_BUCKET_REGION
       - name: Deploy to COS Bucket
         run: coscmd upload -r -s --delete -f public/ /
