@@ -1,0 +1,37 @@
+{
+  "filePreviewOnHover": false,
+  "markSans": true,
+  "makeMenuPlaceholder": true,
+  "mobileMakeBar": true,
+  "inlineStyler": true,
+  "inlineStylerColors": true,
+  "editorFlow": true,
+  "editorFlowStyle": "seamless",
+  "spacesEnabled": true,
+  "spacesPerformance": false,
+  "spacesStickers": true,
+  "spacesDisablePatch": false,
+  "sidebarTabs": true,
+  "deleteFileOption": "trash",
+  "folderRank": {
+    "node": "",
+    "children": [],
+    "isFolder": true
+  },
+  "openFolders": [
+    "//00-Tips",
+    "//20-Diary"
+  ],
+  "fileIcons": [],
+  "spaces": [
+    {
+      "section": "test",
+      "children": [],
+      "collapsed": false
+    }
+  ],
+  "vaultCollapsed": false,
+  "menuTriggerChar": "/",
+  "emojiTriggerChar": ":",
+  "sidebarRibbon": false
+}

@@ -130,7 +130,8 @@ theme = 'FixIt'
     languageName = "简体中文"
     hasCJKLanguage = true
     contentDir = 'content/zh-cn'
-   title ="数屋"
+     title ="数屋"
+      pre = "<i class='fa-solid fa-tree fa-bounce'></i>"
     copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
     [languages.zh-cn.menu]
       [[languages.zh-cn.menu.main]]
