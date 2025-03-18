@@ -939,7 +939,7 @@
         {
           "name": "NewBlog",
           "type": "UserScript",
-          "id": "76fbbb89-b97f-4567-b963-6f5157badfc6",
+          "id": "413bda85-b48b-48a8-bfce-5b1cb07de4f2",
           "path": "obs_sctipts/NewBlog.js",
           "settings": {}
         }
