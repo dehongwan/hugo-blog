@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "aa92ef3c433e51f7",
+        "id": "fdea9913f2dc65eb",
         "type": "tabs",
         "children": [
           {
-            "id": "ddf701875d69a353",
+            "id": "18b42566ecffe03c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -190,8 +190,12 @@
       "hugo-publish:hugo sync": false
     }
   },
-  "active": "ddf701875d69a353",
+  "active": "18b42566ecffe03c",
   "lastOpenFiles": [
+    "content/posts/2025/03/11.md",
+    "content/posts/2025/03",
+    "content/posts/2025",
+    "content/posts",
     "obs_sctipts/NewBlog.js~",
     "content/post/2025/03/dehongwan.md",
     "content/en/posts/2025m3d18h20m27s45.md",
@@ -214,7 +218,6 @@
     "content/posts/2018-01-29-骑征烟威蓬.md",
     "content/posts/2018-01-26-r数据结构.md",
     "content/posts/2017-12-07-读书笔记之-皮囊.md",
-    "content/posts",
     "content/categories/documentation/_index.zh-cn.md",
     "content/categories/documentation/_index.en.md",
     "content/categories/documentation",
@@ -226,9 +229,6 @@
     "content/tags/configuration/_index.zh-cn.md",
     "content/tags/installation/_index.zh-cn.md",
     "content/tags/content",
-    "content/tags/installation",
-    "content/tags/configuration",
-    "content/tags",
     "content/en/posts/2025m3d18h20m27s27.md"
   ]
 }
