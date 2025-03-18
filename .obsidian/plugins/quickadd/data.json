@@ -276,167 +276,14 @@
       "macroId": "67c18955-6f61-4704-b934-50f6464e4699"
     },
     {
-      "id": "d12f7c3f-6192-4c44-b548-30255738aa46",
-      "name": "创建博客文章",
+      "id": "9dd9665e-5130-4768-b199-f7aff1b84ddc",
+      "name": "创建hugo文章",
       "type": "Macro",
       "command": true,
-      "macroId": "9655dda4-4148-471e-8979-7539d4d6a59d"
+      "macroId": "91dad654-3aa6-43b0-9886-e59cc6c740d2"
     }
   ],
   "macros": [
-    {
-      "name": "打开今天笔记",
-      "id": "9655dda4-4148-471e-8979-7539d4d6a59d",
-      "commands": [
-        {
-          "name": "Untitled Capture Choice",
-          "type": "NestedChoice",
-          "id": "4b517f78-c1ce-458d-b122-4cedd77e54e6",
-          "choice": {
-            "id": "7b0b38c6-7cc9-4391-ab9e-bedd7b9b222f",
-            "name": "Untitled Capture Choice",
-            "type": "Capture",
-            "command": false,
-            "appendLink": false,
-            "captureTo": "create_folder_note",
-            "captureToActiveFile": false,
-            "createFileIfItDoesntExist": {
-              "enabled": true,
-              "createWithTemplate": false,
-              "template": ""
-            },
-            "format": {
-              "enabled": false,
-              "format": ""
-            },
-            "insertAfter": {
-              "enabled": false,
-              "after": "",
-              "insertAtEnd": false,
-              "considerSubsections": false,
-              "createIfNotFound": false,
-              "createIfNotFoundLocation": "top"
-            },
-            "prepend": false,
-            "task": false,
-            "openFileInNewTab": {
-              "enabled": false,
-              "direction": "vertical",
-              "focus": true
-            },
-            "openFile": false,
-            "openFileInMode": "default"
-          }
-        },
-        {
-          "name": "Untitled Template Choice",
-          "type": "NestedChoice",
-          "id": "bf28c92d-4195-44b3-9fa6-f72fd6280de9",
-          "choice": {
-            "id": "fd3cc3e9-59b7-4eb6-a21c-8c309052c268",
-            "name": "Untitled Template Choice",
-            "type": "Template",
-            "command": false,
-            "templatePath": "",
-            "fileNameFormat": {
-              "enabled": false,
-              "format": ""
-            },
-            "folder": {
-              "enabled": false,
-              "folders": [],
-              "chooseWhenCreatingNote": false,
-              "createInSameFolderAsActiveFile": false,
-              "chooseFromSubfolders": false
-            },
-            "appendLink": false,
-            "openFileInNewTab": {
-              "enabled": false,
-              "direction": "vertical",
-              "focus": true
-            },
-            "openFile": false,
-            "openFileInMode": "default",
-            "fileExistsMode": "Increment the file name",
-            "setFileExistsBehavior": false
-          }
-        },
-        {
-          "name": "Untitled Capture Choice",
-          "type": "NestedChoice",
-          "id": "b956536e-18ed-49d5-8592-77d08ddddf53",
-          "choice": {
-            "id": "99b79f87-40a8-4945-8acb-3c9c98d95bee",
-            "name": "Untitled Capture Choice",
-            "type": "Capture",
-            "command": false,
-            "appendLink": false,
-            "captureTo": "",
-            "captureToActiveFile": false,
-            "createFileIfItDoesntExist": {
-              "enabled": false,
-              "createWithTemplate": false,
-              "template": ""
-            },
-            "format": {
-              "enabled": false,
-              "format": ""
-            },
-            "insertAfter": {
-              "enabled": false,
-              "after": "",
-              "insertAtEnd": false,
-              "considerSubsections": false,
-              "createIfNotFound": false,
-              "createIfNotFoundLocation": "top"
-            },
-            "prepend": false,
-            "task": false,
-            "openFileInNewTab": {
-              "enabled": false,
-              "direction": "vertical",
-              "focus": true
-            },
-            "openFile": false,
-            "openFileInMode": "default"
-          }
-        },
-        {
-          "name": "Untitled Template Choice",
-          "type": "NestedChoice",
-          "id": "81a6a230-e820-4feb-930b-d15d29c718ae",
-          "choice": {
-            "id": "fcfca98c-66d1-45cf-ab57-7f256dc5986a",
-            "name": "Untitled Template Choice",
-            "type": "Template",
-            "command": false,
-            "templatePath": "",
-            "fileNameFormat": {
-              "enabled": false,
-              "format": ""
-            },
-            "folder": {
-              "enabled": false,
-              "folders": [],
-              "chooseWhenCreatingNote": false,
-              "createInSameFolderAsActiveFile": false,
-              "chooseFromSubfolders": false
-            },
-            "appendLink": false,
-            "openFileInNewTab": {
-              "enabled": false,
-              "direction": "vertical",
-              "focus": true
-            },
-            "openFile": false,
-            "openFileInMode": "default",
-            "fileExistsMode": "Increment the file name",
-            "setFileExistsBehavior": false
-          }
-        }
-      ],
-      "runOnStartup": false
-    },
     {
       "name": "打开看板",
       "id": "96067d39-1c22-4c96-9100-829814ac3251",
@@ -1084,6 +931,20 @@
         }
       ],
       "runOnStartup": false
+    },
+    {
+      "name": "创建hugo文章",
+      "id": "91dad654-3aa6-43b0-9886-e59cc6c740d2",
+      "commands": [
+        {
+          "name": "NewBlog",
+          "type": "UserScript",
+          "id": "76fbbb89-b97f-4567-b963-6f5157badfc6",
+          "path": "obs_sctipts/NewBlog.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": true
     }
   ],
   "inputPrompt": "multi-line",
