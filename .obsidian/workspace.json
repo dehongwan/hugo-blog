@@ -177,7 +177,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -195,8 +195,14 @@
       "hugo-publish:hugo sync": false
     }
   },
-  "active": "5689f1655cb65bc8",
+  "active": "ce5fe7c82c68108a",
   "lastOpenFiles": [
+    "新建 文本文档.js~",
+    "新建 文本文档.js",
+    "新建 文本文档.txt",
+    "未命名 2.md",
+    "未命名 1.md",
+    "content/zh-cn/posts/2018-01-29-骑征烟威蓬.md",
     "content/zh-cn/posts/2018-01-26-r数据结构.md",
     "未命名.md",
     "欢迎.md"

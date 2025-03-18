@@ -1125,11 +1125,17 @@
               "direction": "vertical",
               "focus": true
             },
-            "openFile": false,
+            "openFile": true,
             "openFileInMode": "default"
           }
         }
       ],
+      "runOnStartup": false
+    },
+    {
+      "name": "新建博客文章",
+      "id": "a8312624-6901-4af9-9e5d-ce96c6493092",
+      "commands": [],
       "runOnStartup": false
     }
   ],
