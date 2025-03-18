@@ -276,11 +276,11 @@
       "macroId": "67c18955-6f61-4704-b934-50f6464e4699"
     },
     {
-      "id": "b380b54c-c2c5-40e2-9db8-09cedfce070b",
+      "id": "d12f7c3f-6192-4c44-b548-30255738aa46",
       "name": "创建博客文章",
       "type": "Macro",
       "command": true,
-      "macroId": "ec9a62df-0b6c-4a9c-b259-c5470d69b6d8"
+      "macroId": "9655dda4-4148-471e-8979-7539d4d6a59d"
     }
   ],
   "macros": [
@@ -1080,20 +1080,6 @@
           "type": "UserScript",
           "id": "82d0a0df-f059-418a-a965-4dd039db0595",
           "path": "88-Template/script/copy_canvas_node_text.js",
-          "settings": {}
-        }
-      ],
-      "runOnStartup": false
-    },
-    {
-      "name": "创建博客文章",
-      "id": "ec9a62df-0b6c-4a9c-b259-c5470d69b6d8",
-      "commands": [
-        {
-          "name": "NewBlog",
-          "type": "UserScript",
-          "id": "fccee310-f00b-4992-a915-1572ff772834",
-          "path": "obs_sctipts/NewBlog.js",
           "settings": {}
         }
       ],
