@@ -1090,11 +1090,37 @@
       "id": "ec9a62df-0b6c-4a9c-b259-c5470d69b6d8",
       "commands": [
         {
-          "name": "fixit-decryptor",
-          "type": "UserScript",
-          "id": "f0a42872-339e-47ea-b12f-eec3ca9671a3",
-          "path": "themes/FixIt/assets/js/fixit-decryptor.js",
-          "settings": {}
+          "name": "Untitled Template Choice",
+          "type": "NestedChoice",
+          "id": "3c0c2dc7-5ff7-4c7f-aaf6-64617d7adf95",
+          "choice": {
+            "id": "956a09df-1644-4681-82d7-c41c6175ac68",
+            "name": "Untitled Template Choice",
+            "type": "Template",
+            "command": false,
+            "templatePath": "create_folder_note.js",
+            "fileNameFormat": {
+              "enabled": false,
+              "format": ""
+            },
+            "folder": {
+              "enabled": false,
+              "folders": [],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
         }
       ],
       "runOnStartup": false
