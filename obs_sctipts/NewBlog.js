@@ -1,38 +1,50 @@
-const util = require('util');
-const child_process = require('child_process');
-const exec = util.promisify(child_process.exec);
+module.exports = async (params) => {
+    const { inputPrompt } = params.quickAddApi;
+    const app = params.app;
 
-  
-function getCreateTimeAsFileName() {
-     var d = new Date();
-     var year = d.getFullYear();
-     var month = d.getMonth()+1;
-     var day = d.getDate();
-     var hour = d.getHours();
-     var minute = d.getMinutes();
-     var second = d.getSeconds();
-     var time = year+"m"+month+"d"+day+"h"+hour+"m"+minute+"s"+second;
-     return time;
-}
+    const noteName = await inputPrompt("Enter note name:");
+    if (!noteName) {
+        new Notice("No input provided.", 5000);
+        return;
+    }
 
-  
+    try {
+        const year = window.moment().format("YYYY");
+        const month = window.moment().format("MM");
+        
+        const basePath = './content/posts';
+        const yearPath = `${basePath}/${year}`;
+        const monthPath = `${yearPath}/${month}`;
+        const notePath = `${monthPath}/${noteName}.md`;
 
-// execute command function
+        // 创建文件夹结构
+        await ensureDirectoryExists(app.vault.adapter, yearPath);
+        await ensureDirectoryExists(app.vault.adapter, monthPath);
 
-async function executeCommand() {
-     const fileName = getCreateTimeAsFileName()+".md";
-     const { stdout, stderr } = await exec('hugo new posts/' +fileName,{cwd: app.fileManager.vault.adapter.basePath});
-     console.log('stdout:', stdout);
-     console.log('stderr:', stderr);
-     if (stdout) {
-         new Notice("New Blog Created["+fileName+"]")
-     }else{
-         new Notice("New Blog Create Faild. "+stderr)
-     }
-}
+        // 创建笔记文件内容
+        const fileContent = `---
+title: ${noteName}
+date: ${window.moment().format("YYYY-MM-DD")}
+description: 
+tags: []
+slug: 
+---
 
-  
+<!--more-->`;
 
-module.exports = async function(context, req) {
-    await executeCommand();
+        const file = await app.vault.create(notePath, fileContent);
+        // const leaf = app.workspace.getLeaf();
+        // await leaf.openFile(file);
+    } catch (error) {
+        new Notice(`Error: ${error.message}`, 5000);
+    }
+};
+
+// 确保目录存在
+async function ensureDirectoryExists(adapter, path) {
+    try {
+        await adapter.exists(path) || await adapter.mkdir(path);
+    } catch (error) {
+        throw new Error(`Failed to create directory ${path}: ${error.message}`);
+    }
 }

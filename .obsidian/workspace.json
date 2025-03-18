@@ -11,14 +11,10 @@
             "id": "ddf701875d69a353",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/en/posts/2025m3d18h20m27s27.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2025m3d18h20m27s27"
+              "title": "新标签页"
             }
           }
         ]
@@ -110,7 +106,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/en/posts/2025m3d18h20m27s27.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2025m3d18h20m27s27 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -157,13 +152,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/en/posts/2025m3d18h20m27s27.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025m3d18h20m27s27 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -197,26 +191,43 @@
   },
   "active": "ddf701875d69a353",
   "lastOpenFiles": [
+    "obs_sctipts/NewBlog.js~",
     "content/post/2025/03/dehongwan.md",
-    "content/en/posts/2025m3d18h20m28s28.md",
     "content/en/posts/2025m3d18h20m27s45.md",
-    "content/en/posts/2025m3d18h20m27s27.md",
-    "content/post/2025/03/11111111.md",
-    "content/post/2025/03",
-    "content/post/2025",
-    "content/post",
-    "content/zh-cn/posts/2018-01-29-骑征烟威蓬.md",
-    "obs_sctipts/NewBlog.js",
-    "obs_sctipts/新建 文本文档.txt",
-    "obs_sctipts",
-    "新建文件夹",
-    "create_folder_note.js",
-    "新建 文本文档.js~",
-    "新建 文本文档.js",
-    "未命名 2.md",
-    "未命名 1.md",
-    "content/zh-cn/posts/2018-01-26-r数据结构.md",
-    "未命名.md",
-    "欢迎.md"
+    "content/posts/theme-documentation-echarts-shortcode/index.zh-cn.md",
+    "content/posts/theme-documentation-echarts-shortcode/index.en.md",
+    "content/posts/theme-documentation-echarts-shortcode/featured-image.jpg",
+    "content/posts/basic-markdown-syntax/index.en.md",
+    "content/posts/basic-markdown-syntax/index.zh-cn.md",
+    "content/posts/basic-markdown-syntax/featured-image.png",
+    "content/posts/theme-documentation-echarts-shortcode",
+    "content/posts/my-first-post.md",
+    "content/posts/basic-markdown-syntax",
+    "content/posts/2018-05-15-北方的空地-无人之地的一人之旅.md",
+    "content/posts/2018-02-27-睡-神-大法.md",
+    "content/posts/2018-03-04-观影红海.md",
+    "content/posts/2018-02-22-冬日乡野.md",
+    "content/posts/2018-02-04-机器学习与大数据训练营第一次辅导.md",
+    "content/posts/2018-02-02-山姆和佛罗多.md",
+    "content/posts/2018-01-31-千寻的数学规划.md",
+    "content/posts/2018-01-29-骑征烟威蓬.md",
+    "content/posts/2018-01-26-r数据结构.md",
+    "content/posts/2017-12-07-读书笔记之-皮囊.md",
+    "content/posts",
+    "content/categories/documentation/_index.zh-cn.md",
+    "content/categories/documentation/_index.en.md",
+    "content/categories/documentation",
+    "content/categories",
+    "content/about/index.zh-cn.md",
+    "content/about/index.en.md",
+    "content/about",
+    "content/tags/content/_index.zh-cn.md",
+    "content/tags/configuration/_index.zh-cn.md",
+    "content/tags/installation/_index.zh-cn.md",
+    "content/tags/content",
+    "content/tags/installation",
+    "content/tags/configuration",
+    "content/tags",
+    "content/en/posts/2025m3d18h20m27s27.md"
   ]
 }
