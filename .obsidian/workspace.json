@@ -110,7 +110,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "collapseAll": false,
+                "file": "content/zh-cn/posts/2018-01-29-骑征烟威蓬.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -119,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "2018-01-29-骑征烟威蓬 的反向链接列表"
             }
           },
           {
@@ -163,13 +164,23 @@
               "icon": "lucide-list",
               "title": "大纲"
             }
+          },
+          {
+            "id": "ce5fe7c82c68108a",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,7 +194,7 @@
       "hugo-publish:hugo sync": false
     }
   },
-  "active": "00739f2e33e134ce",
+  "active": "36f84f4e0cf3ff8a",
   "lastOpenFiles": [
     "content/zh-cn/posts/2018-01-26-r数据结构.md",
     "未命名.md",
