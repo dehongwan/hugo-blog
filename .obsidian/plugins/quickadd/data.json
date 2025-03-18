@@ -1088,53 +1088,6 @@
     {
       "name": "创建博客文章",
       "id": "ec9a62df-0b6c-4a9c-b259-c5470d69b6d8",
-      "commands": [
-        {
-          "name": "Untitled Capture Choice",
-          "type": "NestedChoice",
-          "id": "5e88eec5-7822-4bb8-a26a-f5bd775918c1",
-          "choice": {
-            "id": "e3cdeef0-de7f-4908-826f-aaac4fb2e41f",
-            "name": "Untitled Capture Choice",
-            "type": "Capture",
-            "command": false,
-            "appendLink": false,
-            "captureTo": "未命名.md",
-            "captureToActiveFile": false,
-            "createFileIfItDoesntExist": {
-              "enabled": false,
-              "createWithTemplate": false,
-              "template": ""
-            },
-            "format": {
-              "enabled": false,
-              "format": ""
-            },
-            "insertAfter": {
-              "enabled": false,
-              "after": "",
-              "insertAtEnd": false,
-              "considerSubsections": false,
-              "createIfNotFound": false,
-              "createIfNotFoundLocation": "top"
-            },
-            "prepend": false,
-            "task": false,
-            "openFileInNewTab": {
-              "enabled": false,
-              "direction": "vertical",
-              "focus": true
-            },
-            "openFile": true,
-            "openFileInMode": "default"
-          }
-        }
-      ],
-      "runOnStartup": false
-    },
-    {
-      "name": "新建博客文章",
-      "id": "a8312624-6901-4af9-9e5d-ce96c6493092",
       "commands": [],
       "runOnStartup": false
     }
