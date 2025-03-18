@@ -276,11 +276,11 @@
       "macroId": "67c18955-6f61-4704-b934-50f6464e4699"
     },
     {
-      "id": "9e38a89a-a764-4890-baf5-c08b4d44fafd",
-      "name": "新建笔记",
+      "id": "b380b54c-c2c5-40e2-9db8-09cedfce070b",
+      "name": "创建博客文章",
       "type": "Macro",
       "command": true,
-      "macroId": "9655dda4-4148-471e-8979-7539d4d6a59d"
+      "macroId": "ec9a62df-0b6c-4a9c-b259-c5470d69b6d8"
     }
   ],
   "macros": [
@@ -289,34 +289,150 @@
       "id": "9655dda4-4148-471e-8979-7539d4d6a59d",
       "commands": [
         {
-          "name": "Workspaces Plus: Load: Diary",
-          "type": "Obsidian",
-          "id": "a09bb550-f273-4a52-b951-f3af9b6a9ef1",
-          "commandId": "workspaces-plus:Diary"
+          "name": "Untitled Capture Choice",
+          "type": "NestedChoice",
+          "id": "4b517f78-c1ce-458d-b122-4cedd77e54e6",
+          "choice": {
+            "id": "7b0b38c6-7cc9-4391-ab9e-bedd7b9b222f",
+            "name": "Untitled Capture Choice",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "create_folder_note",
+            "captureToActiveFile": false,
+            "createFileIfItDoesntExist": {
+              "enabled": true,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": false,
+              "format": ""
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
         },
         {
-          "name": "Wait",
-          "type": "Wait",
-          "id": "06023af6-2ab6-46c1-ba8e-0b73f987e176",
-          "time": 800
+          "name": "Untitled Template Choice",
+          "type": "NestedChoice",
+          "id": "bf28c92d-4195-44b3-9fa6-f72fd6280de9",
+          "choice": {
+            "id": "fd3cc3e9-59b7-4eb6-a21c-8c309052c268",
+            "name": "Untitled Template Choice",
+            "type": "Template",
+            "command": false,
+            "templatePath": "",
+            "fileNameFormat": {
+              "enabled": false,
+              "format": ""
+            },
+            "folder": {
+              "enabled": false,
+              "folders": [],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
         },
         {
-          "name": "日记: 打开/创建今天的日记",
-          "type": "Obsidian",
-          "id": "d3f464a7-7091-42f5-ae0e-db6fe458d878",
-          "commandId": "daily-notes"
+          "name": "Untitled Capture Choice",
+          "type": "NestedChoice",
+          "id": "b956536e-18ed-49d5-8592-77d08ddddf53",
+          "choice": {
+            "id": "99b79f87-40a8-4945-8acb-3c9c98d95bee",
+            "name": "Untitled Capture Choice",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": false,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": false,
+              "format": ""
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
         },
         {
-          "name": "Wait",
-          "type": "Wait",
-          "id": "6e4f9839-c78a-45b4-ab2d-7bc881b590e4",
-          "time": 300
-        },
-        {
-          "name": "Obsidian Memos: Focus On Memos Editor",
-          "type": "Obsidian",
-          "id": "37fc4999-bade-4afe-bd6c-86f296423fa2",
-          "commandId": "obsidian-memos:focus-on-memos-editor"
+          "name": "Untitled Template Choice",
+          "type": "NestedChoice",
+          "id": "81a6a230-e820-4feb-930b-d15d29c718ae",
+          "choice": {
+            "id": "fcfca98c-66d1-45cf-ab57-7f256dc5986a",
+            "name": "Untitled Template Choice",
+            "type": "Template",
+            "command": false,
+            "templatePath": "",
+            "fileNameFormat": {
+              "enabled": false,
+              "format": ""
+            },
+            "folder": {
+              "enabled": false,
+              "folders": [],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
         }
       ],
       "runOnStartup": false
@@ -965,6 +1081,53 @@
           "id": "82d0a0df-f059-418a-a965-4dd039db0595",
           "path": "88-Template/script/copy_canvas_node_text.js",
           "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "创建博客文章",
+      "id": "ec9a62df-0b6c-4a9c-b259-c5470d69b6d8",
+      "commands": [
+        {
+          "name": "Untitled Capture Choice",
+          "type": "NestedChoice",
+          "id": "5e88eec5-7822-4bb8-a26a-f5bd775918c1",
+          "choice": {
+            "id": "e3cdeef0-de7f-4908-826f-aaac4fb2e41f",
+            "name": "Untitled Capture Choice",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "未命名.md",
+            "captureToActiveFile": false,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": false,
+              "format": ""
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
         }
       ],
       "runOnStartup": false
