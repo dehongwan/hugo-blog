@@ -1088,7 +1088,15 @@
     {
       "name": "创建博客文章",
       "id": "ec9a62df-0b6c-4a9c-b259-c5470d69b6d8",
-      "commands": [],
+      "commands": [
+        {
+          "name": "fixit-decryptor",
+          "type": "UserScript",
+          "id": "f0a42872-339e-47ea-b12f-eec3ca9671a3",
+          "path": "themes/FixIt/assets/js/fixit-decryptor.js",
+          "settings": {}
+        }
+      ],
       "runOnStartup": false
     }
   ],
