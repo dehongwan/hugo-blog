@@ -157,12 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "content/zh-cn/posts/2018-01-29-骑征烟威蓬.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "2018-01-29-骑征烟威蓬 的大纲"
             }
           },
           {
@@ -176,7 +177,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -194,7 +195,7 @@
       "hugo-publish:hugo sync": false
     }
   },
-  "active": "36f84f4e0cf3ff8a",
+  "active": "5689f1655cb65bc8",
   "lastOpenFiles": [
     "content/zh-cn/posts/2018-01-26-r数据结构.md",
     "未命名.md",
