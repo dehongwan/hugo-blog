@@ -11,10 +11,14 @@
             "id": "18b42566ecffe03c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "content/posts/2025/03/power bi 模型.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "power bi 模型"
             }
           }
         ]
@@ -190,8 +194,11 @@
       "hugo-publish:hugo sync": false
     }
   },
-  "active": "a63376a61eb24bee",
+  "active": "18b42566ecffe03c",
   "lastOpenFiles": [
+    "public/images/version/0.2.0-new.zh-cn.min.svg",
+    "public/images/version/0.2.0-new.en.min.svg",
+    "public/images/version",
     "public/lib/webfonts/fa-v4compatibility.woff2",
     "public/lib/webfonts/fa-v4compatibility.ttf",
     "public/lib/webfonts/fa-solid-900.woff2",
@@ -201,8 +208,6 @@
     "public/lib/webfonts/fa-brands-400.woff2",
     "public/lib/webfonts/fa-brands-400.ttf",
     "public/lib/webfonts",
-    "public/lib/fontawesome-free/all.min.css",
-    "public/lib/fontawesome-free",
     "public/zh-cn/posts/读书笔记之-皮囊/index.md",
     "public/zh-cn/posts/观影红海/index.md",
     "public/zh-cn/posts/睡-神-大法/index.md",
@@ -236,7 +241,6 @@
     "content/zh-cn/tags/installation/_index.zh-cn.md",
     "content/zh-cn/tags/content/_index.zh-cn.md",
     "content/zh-cn/tags/configuration/_index.zh-cn.md",
-    "content/zh-cn/posts/theme-documentation-echarts-shortcode/featured-image.jpg",
-    "content/zh-cn/posts/basic-markdown-syntax/featured-image.png"
+    "content/zh-cn/posts/theme-documentation-echarts-shortcode/featured-image.jpg"
   ]
 }
