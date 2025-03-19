@@ -6,6 +6,7 @@
       {
         "id": "fdea9913f2dc65eb",
         "type": "tabs",
+        "dimension": 68.15286624203821,
         "children": [
           {
             "id": "18b42566ecffe03c",
@@ -26,6 +27,7 @@
       {
         "id": "3b4a873fae3741db",
         "type": "tabs",
+        "dimension": 31.84713375796178,
         "children": [
           {
             "id": "f5a34bffaf2e6cd3",
@@ -216,7 +218,7 @@
       "hugo-publish:hugo sync": false
     }
   },
-  "active": "18b42566ecffe03c",
+  "active": "f5a34bffaf2e6cd3",
   "lastOpenFiles": [
     "public/images/version/0.2.0-new.zh-cn.min.svg",
     "public/images/version/0.2.0-new.en.min.svg",
