@@ -21,3 +21,6 @@ slug:
 通常情况下，维度表包含的行数相对较少。 另一方面，事实数据表可以包含大量行，并随着时间的推移继续增长。
 
 https://learn.microsoft.com/zh-cn/power-bi/guidance/star-schema
+
+
+平面文件
