@@ -24,3 +24,5 @@ https://learn.microsoft.com/zh-cn/power-bi/guidance/star-schema
 
 
 平面文件
+
+<iframe title="Sample Report Demo" width="1140" height="541.25" src="https://playground.powerbi.com/sampleReportEmbed" frameborder="0" allowFullScreen="true"></iframe>
