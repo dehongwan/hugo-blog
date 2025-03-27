@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "fdea9913f2dc65eb",
+        "id": "7771a55cff0a33aa",
         "type": "tabs",
         "children": [
           {
-            "id": "18b42566ecffe03c",
+            "id": "b48ca0e6066b8f81",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/2025/03/python-python-xlwings学习.md",
+                "file": "content/posts/2025/03/python基础一.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "python-python-xlwings学习"
+              "title": "python基础一"
             }
           }
         ]
@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "f461073de21f068e",
@@ -196,10 +195,12 @@
       "hugo-publish:hugo sync": false
     }
   },
-  "active": "18b42566ecffe03c",
+  "active": "b48ca0e6066b8f81",
   "lastOpenFiles": [
-    "content/posts/2025/03/power bi 模型.md",
+    "未命名.canvas",
+    "content/posts/2025/03/python基础一.md",
     "content/posts/2025/03/python-python-xlwings学习.md",
+    "content/posts/2025/03/power bi 模型.md",
     "content/posts/2025/03/工作经验总结.md",
     "content/posts/basic-markdown-syntax/index.en.md",
     "content/posts/basic-markdown-syntax/featured-image.png",
@@ -239,8 +240,6 @@
     "public/posts/theme-documentation-echarts-shortcode/index.md",
     "public/posts/theme-documentation-echarts-shortcode/featured-image.jpg",
     "public/posts/r数据结构/index.md",
-    "public/posts/2018-01-29-骑征烟威蓬/index.md",
-    "public/posts/basic-markdown-syntax/index.md",
     "public/posts/basic-markdown-syntax/featured-image.png",
     "public/images/avatar2.png",
     "public/lib/lightgallery/images/loading.gif"
