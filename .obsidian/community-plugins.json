@@ -4,9 +4,9 @@
   "quickadd",
   "hugo-publish",
   "obsidian-mkdocs-publisher",
-  "code-emitter",
   "obsidian42-brat",
   "jupyter",
   "obsidian-enhancing-export",
-  "obsidian-better-codeblock"
+  "obsidian-better-codeblock",
+  "execute-code"
 ]

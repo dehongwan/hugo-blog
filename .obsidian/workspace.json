@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7771a55cff0a33aa",
+        "id": "38366d4b7fe9c99c",
         "type": "tabs",
         "children": [
           {
-            "id": "b48ca0e6066b8f81",
+            "id": "1b988ec8e810b2a8",
             "type": "leaf",
             "state": {
-              "type": "jupyter-view",
+              "type": "markdown",
               "state": {
-                "file": "content/posts/Welcome.ipynb"
+                "file": "content/zh-cn/posts/优衣库门店可视化与顾客拜访数据分组/优衣库门店可视化与顾客拜访数据分组.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "none",
-              "title": "Welcome.ipynb"
+              "icon": "lucide-file",
+              "title": "优衣库门店可视化与顾客拜访数据分组"
             }
           }
         ]
@@ -195,11 +197,17 @@
       "jupyter:Create Jupyter Notebook": false
     }
   },
-  "active": "b48ca0e6066b8f81",
+  "active": "1b988ec8e810b2a8",
   "lastOpenFiles": [
-    "content/posts/50个Pyecharts例子.md",
-    "content/zh-cn/posts/优衣库门店可视化与顾客拜访数据分组/优衣库门店可视化与顾客拜访数据分组.md",
     "content/zh-cn/posts/my-first-post.md",
+    "content/zh-cn/posts/优衣库门店可视化与顾客拜访数据分组/优衣库门店可视化与顾客拜访数据分组.md",
+    "content/zh-cn/posts/2018-02-04-机器学习与大数据训练营第一次辅导.md",
+    "content/zh-cn/posts/2018-03-04-观影红海.md",
+    "content/zh-cn/posts/2018-05-15-北方的空地-无人之地的一人之旅.md",
+    "content/posts/my-first-post.md",
+    "content/posts/Welcome.md",
+    "content/posts/Welcome.ipynb",
+    "content/posts/50个Pyecharts例子.md",
     "content/zh-cn/posts/my-first-post-media",
     "public/zh-cn/posts/优衣库门店可视化与顾客拜访数据分组/优衣库门店可视化与顾客拜访数据分组/index.md",
     "public/zh-cn/posts/优衣库门店可视化与顾客拜访数据分组/优衣库门店可视化与顾客拜访数据分组/index.html",
@@ -208,13 +216,10 @@
     "public/zh-cn/posts/优衣库门店可视化与顾客拜访数据分组/output_68_0.png",
     "public/zh-cn/posts/优衣库门店可视化与顾客拜访数据分组",
     "content/posts/2018-02-04-机器学习与大数据训练营第一次辅导.md",
-    "content/posts/my-first-post.md",
     "content/zh-cn/posts/优衣库门店可视化与顾客拜访数据分组/output_70_0.png",
     "content/zh-cn/posts/优衣库门店可视化与顾客拜访数据分组/output_68_0.png",
     "content/zh-cn/posts/优衣库门店可视化与顾客拜访数据分组",
     "content/zh-cn/posts/2018-01-31-千寻的数学规划.md",
-    "content/posts/Welcome.ipynb",
-    "content/posts/Welcome.md",
     "content/zh-cn/posts/2018-02-02-山姆和佛罗多.md",
     "content/zh-cn/posts/2018-01-29-骑征烟威蓬.md",
     "public/zh-cn/tags/python/index.xml",
@@ -235,9 +240,7 @@
     "public/zh-cn/posts/千寻的数学规划/index.md",
     "public/zh-cn/posts/北方的空地-无人之地的一人之旅/index.md",
     "public/zh-cn/posts/冬日乡野/index.md",
-    "public/zh-cn/posts/theme-documentation-echarts-shortcode/index.md",
     "public/zh-cn/posts/theme-documentation-echarts-shortcode/featured-image.jpg",
-    "public/zh-cn/posts/r数据结构/index.md",
     "public/zh-cn/posts/basic-markdown-syntax/featured-image.png",
     "public/images/avatar.png",
     "public/posts/theme-documentation-echarts-shortcode/featured-image.jpg",

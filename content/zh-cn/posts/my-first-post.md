@@ -28,16 +28,22 @@ weight: 0
 
 
 
-\`\`\`python exec="true"
+```python
+import micropip
+await micropip.install('numpy')  
 import numpy as np
+a = np.random.rand(3,2)
+b = np.random.rand(2,5)
+
+print(a@b)
+
+```
+```python
+
+
 import matplotlib.pyplot as plt
 
-x = np.linspace(0, 10, 100)
-plt.plot(x, np.sin(x))
-plt.savefig('sin_plot.png') \# 保存图片
-print("![sin wave](sin_plot.png)") \# 嵌入图片
-
-
-    ```jupyter
-    import numpy as np
-    plt.plot(np.sin(np.linspace(0, 10, 100)))
+fig, ax = plt.subplots()             # Create a figure containing a single Axes.
+ax.plot([1, 2, 3, 10], [1, 4, 2, 3])  # Plot some data on the Axes.
+plt.show()                           # Show the figure.
+```
