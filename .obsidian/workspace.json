@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/my-first-post.md",
+                "file": "content/zh-cn/posts/优衣库门店可视化与顾客拜访数据分组/优衣库门店可视化与顾客拜访数据分组.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "my-first-post"
+              "title": "优衣库门店可视化与顾客拜访数据分组"
             }
           }
         ]
@@ -199,23 +199,30 @@
   },
   "active": "b48ca0e6066b8f81",
   "lastOpenFiles": [
+    "content/zh-cn/posts/my-first-post.md",
+    "public/zh-cn/posts/优衣库门店可视化与顾客拜访数据分组/优衣库门店可视化与顾客拜访数据分组/index.md",
+    "public/zh-cn/posts/优衣库门店可视化与顾客拜访数据分组/优衣库门店可视化与顾客拜访数据分组/index.html",
+    "public/zh-cn/posts/优衣库门店可视化与顾客拜访数据分组/优衣库门店可视化与顾客拜访数据分组",
+    "public/zh-cn/posts/优衣库门店可视化与顾客拜访数据分组/output_70_0.png",
+    "public/zh-cn/posts/优衣库门店可视化与顾客拜访数据分组/output_68_0.png",
+    "public/zh-cn/posts/优衣库门店可视化与顾客拜访数据分组",
+    "content/zh-cn/posts/优衣库门店可视化与顾客拜访数据分组/优衣库门店可视化与顾客拜访数据分组.md",
+    "content/posts/2018-02-04-机器学习与大数据训练营第一次辅导.md",
+    "content/posts/my-first-post.md",
+    "content/zh-cn/posts/优衣库门店可视化与顾客拜访数据分组/output_70_0.png",
+    "content/zh-cn/posts/优衣库门店可视化与顾客拜访数据分组/output_68_0.png",
+    "content/zh-cn/posts/优衣库门店可视化与顾客拜访数据分组",
     "content/zh-cn/posts/2018-01-31-千寻的数学规划.md",
     "content/posts/Welcome.ipynb",
     "content/posts/Welcome.md",
     "content/zh-cn/posts/2018-02-02-山姆和佛罗多.md",
     "content/zh-cn/posts/2018-01-29-骑征烟威蓬.md",
-    "content/zh-cn/posts/my-first-post.md",
     "public/zh-cn/tags/python/index.xml",
     "public/zh-cn/tags/python/page/1/index.html",
     "public/zh-cn/tags/python/page/1",
     "public/zh-cn/tags/python/index.html",
     "public/zh-cn/tags/python/page",
-    "public/zh-cn/tags/python",
-    "content/posts/my-first-post.md",
-    "public/zh-cn/posts/583bc6c/index.html",
     "public/zh-cn/posts/583bc6c/index.md",
-    "public/zh-cn/posts/583bc6c",
-    "public/zh-cn/categories/draft/page/1/index.html",
     "python -echarts.md",
     "未命名.canvas",
     "content/posts/50个Pyecharts例子.md",
@@ -223,7 +230,6 @@
     "content/posts/2017-12-07-读书笔记之-皮囊.md",
     "content/posts/theme-documentation-echarts-shortcode/index.zh-cn.md",
     "content/posts/2018-01-29-骑征烟威蓬.md",
-    "content/posts/2018-02-04-机器学习与大数据训练营第一次辅导.md",
     "public/zh-cn/posts/读书笔记之-皮囊/index.md",
     "public/zh-cn/posts/观影红海/index.md",
     "public/zh-cn/posts/睡-神-大法/index.md",
@@ -236,14 +242,9 @@
     "public/zh-cn/posts/r数据结构/index.md",
     "public/zh-cn/posts/basic-markdown-syntax/index.md",
     "public/zh-cn/posts/basic-markdown-syntax/featured-image.png",
-    "public/zh-cn/posts/2018-01-29-骑征烟威蓬/index.md",
     "public/images/avatar.png",
     "public/posts/theme-documentation-echarts-shortcode/featured-image.jpg",
     "public/posts/basic-markdown-syntax/featured-image.png",
-    "public/images/fixit.min.svg",
-    "public/images/hugo.min.svg",
-    "public/images/avatar2.png",
-    "public/lib/lightgallery/images/loading.gif",
-    "public/lib/lightgallery/fonts/lg.svg"
+    "public/images/fixit.min.svg"
   ]
 }
