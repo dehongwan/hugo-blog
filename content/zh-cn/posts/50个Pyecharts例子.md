@@ -24,16 +24,27 @@ from pyecharts.render import make_snapshot
 from snapshot_phantomjs import snapshot
 
 # 生成图表
-attr = ['衬衫', '羊毛衫', '雪纺衫', '裤子', '高跟鞋', '袜子']
-v1 = [5, 20, 36, 10, 75, 90]
-v2 = [10, 25, 8, 60, 20, 80]
-bar = Bar()
-bar.add_xaxis(attr)
-bar.add_yaxis("商家A", v1)
-bar.add_yaxis("商家B", v2)
 
-# 保存为图片（需先安装 phantomjs）
-make_snapshot(snapshot, bar.render(), "bar_chart.png")
+from pyecharts.charts import *
+from pyecharts import options as opts
+from pyecharts.faker import Faker
+
+
+def bar_stack():
+    bar = Bar(init_opts=opts.InitOpts(theme='light',
+                                      width='1000px',
+                                      height='600px'))
+    bar.add_xaxis(Faker.choose())
+    # stack值一样的系列会堆叠在一起
+    bar.add_yaxis('A', Faker.values(), stack='stack1')
+    bar.add_yaxis('B', Faker.values(), stack='stack1')
+    bar.add_yaxis('C', Faker.values(), stack='stack2')
+    return bar
+
+
+
+chart = bar_stack()
+chart.render_notebook()
 ```
 
 
