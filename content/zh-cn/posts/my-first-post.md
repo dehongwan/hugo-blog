@@ -29,8 +29,6 @@ weight: 0
 
 
 ```python
-import micropip
-await micropip.install('numpy')  
 import numpy as np
 a = np.random.rand(3,2)
 b = np.random.rand(2,5)
@@ -38,12 +36,17 @@ b = np.random.rand(2,5)
 print(a@b)
 
 ```
-```python
+```python exec="true"
+from pyecharts.charts import Bar
 
+attr = ['衬衫', '羊毛衫', '雪纺衫', '裤子', '高跟鞋', '袜子']
+v1 = [5, 20, 36, 10, 75, 90]
+v2 = [10, 25, 8, 60, 20, 80]
+bar = Bar()
+bar.add_xaxis(attr)
+bar.add_yaxis("商家A", v1)
+bar.add_yaxis("商家B", v2)
 
-import matplotlib.pyplot as plt
-
-fig, ax = plt.subplots()             # Create a figure containing a single Axes.
-ax.plot([1, 2, 3, 10], [1, 4, 2, 3])  # Plot some data on the Axes.
-plt.show()                           # Show the figure.
+chart = bar_stack()
+chart.render_notebook()
 ```
