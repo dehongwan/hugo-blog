@@ -11,12 +11,14 @@
             "id": "b48ca0e6066b8f81",
             "type": "leaf",
             "state": {
-              "type": "jupyter-view",
+              "type": "markdown",
               "state": {
-                "file": "content/posts/Welcome.ipynb"
+                "file": "content/posts/my-first-post.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "none",
-              "title": "Welcome.ipynb"
+              "icon": "lucide-file",
+              "title": "my-first-post"
             }
           }
         ]
@@ -92,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 372.5
   },
   "right": {
     "id": "f461073de21f068e",
@@ -198,9 +199,9 @@
   },
   "active": "b48ca0e6066b8f81",
   "lastOpenFiles": [
-    "content/posts/Welcome.md",
-    "content/posts/Welcome.ipynb",
     "content/zh-cn/posts/2018-01-31-千寻的数学规划.md",
+    "content/posts/Welcome.ipynb",
+    "content/posts/Welcome.md",
     "content/zh-cn/posts/2018-02-02-山姆和佛罗多.md",
     "content/zh-cn/posts/2018-01-29-骑征烟威蓬.md",
     "content/zh-cn/posts/my-first-post.md",
