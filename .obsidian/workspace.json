@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/zh-cn/posts/优衣库门店可视化与顾客拜访数据分组/优衣库门店可视化与顾客拜访数据分组.md",
+                "file": "content/zh-cn/posts/my-first-post.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "优衣库门店可视化与顾客拜访数据分组"
+              "title": "my-first-post"
             }
           }
         ]
@@ -197,8 +197,9 @@
       "jupyter:Create Jupyter Notebook": false
     }
   },
-  "active": "b48ca0e6066b8f81",
+  "active": "a63376a61eb24bee",
   "lastOpenFiles": [
+    "content/zh-cn/posts/优衣库门店可视化与顾客拜访数据分组/优衣库门店可视化与顾客拜访数据分组.md",
     "content/zh-cn/posts/my-first-post.md",
     "public/zh-cn/posts/优衣库门店可视化与顾客拜访数据分组/优衣库门店可视化与顾客拜访数据分组/index.md",
     "public/zh-cn/posts/优衣库门店可视化与顾客拜访数据分组/优衣库门店可视化与顾客拜访数据分组/index.html",
@@ -206,7 +207,6 @@
     "public/zh-cn/posts/优衣库门店可视化与顾客拜访数据分组/output_70_0.png",
     "public/zh-cn/posts/优衣库门店可视化与顾客拜访数据分组/output_68_0.png",
     "public/zh-cn/posts/优衣库门店可视化与顾客拜访数据分组",
-    "content/zh-cn/posts/优衣库门店可视化与顾客拜访数据分组/优衣库门店可视化与顾客拜访数据分组.md",
     "content/posts/2018-02-04-机器学习与大数据训练营第一次辅导.md",
     "content/posts/my-first-post.md",
     "content/zh-cn/posts/优衣库门店可视化与顾客拜访数据分组/output_70_0.png",
