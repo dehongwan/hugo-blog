@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/2018-02-04-机器学习与大数据训练营第一次辅导.md",
+                "file": "content/posts/theme-documentation-echarts-shortcode/index.zh-cn.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2018-02-04-机器学习与大数据训练营第一次辅导"
+              "title": "index.zh-cn"
             }
           }
         ]
@@ -195,8 +195,9 @@
       "hugo-publish:hugo sync": false
     }
   },
-  "active": "b48ca0e6066b8f81",
+  "active": "a63376a61eb24bee",
   "lastOpenFiles": [
+    "content/posts/2018-02-04-机器学习与大数据训练营第一次辅导.md",
     "public/lib/katex/fonts/KaTeX_Size3-Regular.woff2",
     "public/lib/katex/fonts/KaTeX_Size3-Regular.woff",
     "public/lib/katex/fonts/KaTeX_Size3-Regular.ttf",
@@ -207,7 +208,6 @@
     "public/lib/katex/fonts/KaTeX_Size1-Regular.woff",
     "public/lib/katex/fonts/KaTeX_Size1-Regular.ttf",
     "public/lib/katex/fonts/KaTeX_Script-Regular.woff2",
-    "public/lib/katex/fonts/KaTeX_Script-Regular.woff",
     "public/zh-cn/posts/读书笔记之-皮囊/index.md",
     "public/zh-cn/posts/观影红海/index.md",
     "public/zh-cn/posts/睡-神-大法/index.md",
