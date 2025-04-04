@@ -4,5 +4,7 @@
   "quickadd",
   "hugo-publish",
   "obsidian-mkdocs-publisher",
-  "code-emitter"
+  "code-emitter",
+  "obsidian42-brat",
+  "jupyter"
 ]

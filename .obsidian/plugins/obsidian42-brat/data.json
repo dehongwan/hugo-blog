@@ -1,5 +1,6 @@
 {
   "pluginList": [
+    "MaelImhof/obsidian-jupyter",
     "Mocca101/obsidian-plugin-groups",
     "tadashi-aikawa/obsidian-various-complements-plugin",
     "benhughes/obsidian-link-exploder",
