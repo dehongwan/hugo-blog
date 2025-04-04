@@ -1,59 +1,27 @@
 
 
-<h1>Table of Contents<span class="tocSkip"></span></h1>
-<div class="toc"><ul class="toc-item"><li><span><a href="#前言" data-toc-modified-id="前言-1">前言</a></span></li><li><span><a href="#1.-柱状图堆叠" data-toc-modified-id="1.-柱状图堆叠-2">1. 柱状图堆叠</a></span></li><li><span><a href="#2.关闭坐标轴显示" data-toc-modified-id="2.关闭坐标轴显示-3">2.关闭坐标轴显示</a></span></li><li><span><a href="#3.自定义坐标轴标签文本" data-toc-modified-id="3.自定义坐标轴标签文本-4">3.自定义坐标轴标签文本</a></span></li><li><span><a href="#4.更改坐标轴数据类型" data-toc-modified-id="4.更改坐标轴数据类型-5">4.更改坐标轴数据类型</a></span></li><li><span><a href="#5.双Y轴【直方图&amp;折线图】" data-toc-modified-id="5.双Y轴【直方图&amp;折线图】-6">5.双Y轴【直方图&amp;折线图】</a></span></li><li><span><a href="#6.直方图——双Y轴" data-toc-modified-id="6.直方图——双Y轴-7">6.直方图——双Y轴</a></span></li><li><span><a href="#7.折线图——双X轴" data-toc-modified-id="7.折线图——双X轴-8">7.折线图——双X轴</a></span></li><li><span><a href="#8.自定义图例图形" data-toc-modified-id="8.自定义图例图形-9">8.自定义图例图形</a></span></li><li><span><a href="#9.图例选择设置单选" data-toc-modified-id="9.图例选择设置单选-10">9.图例选择设置单选</a></span></li><li><span><a href="#10.设置默认选中系列" data-toc-modified-id="10.设置默认选中系列-11">10.设置默认选中系列</a></span></li><li><span><a href="#11.缩略轴——inside组件" data-toc-modified-id="11.缩略轴——inside组件-12">11.缩略轴——inside组件</a></span></li><li><span><a href="#12.缩略轴——slider组件" data-toc-modified-id="12.缩略轴——slider组件-13">12.缩略轴——slider组件</a></span></li><li><span><a href="#13.缩略轴——slider组件&amp;inside组件" data-toc-modified-id="13.缩略轴——slider组件&amp;inside组件-14">13.缩略轴——slider组件&amp;inside组件</a></span></li><li><span><a href="#14.XY轴翻转" data-toc-modified-id="14.XY轴翻转-15">14.XY轴翻转</a></span></li><li><span><a href="#15.设置动画效果" data-toc-modified-id="15.设置动画效果-16">15.设置动画效果</a></span></li><li><span><a href="#15.直方图带视觉组件" data-toc-modified-id="15.直方图带视觉组件-17">15.直方图带视觉组件</a></span></li><li><span><a href="#16.设置渐变色(线性渐变)" data-toc-modified-id="16.设置渐变色(线性渐变)-18">16.设置渐变色(线性渐变)</a></span></li><li><span><a href="#17.设置渐变色(径向渐变)" data-toc-modified-id="17.设置渐变色(径向渐变)-19">17.设置渐变色(径向渐变)</a></span></li><li><span><a href="#18.设置分割线" data-toc-modified-id="18.设置分割线-20">18.设置分割线</a></span></li><li><span><a href="#19.设置分割区域" data-toc-modified-id="19.设置分割区域-21">19.设置分割区域</a></span></li><li><span><a href="#20.通过字典配置" data-toc-modified-id="20.通过字典配置-22">20.通过字典配置</a></span></li><li><span><a href="#21.面积图" data-toc-modified-id="21.面积图-23">21.面积图</a></span></li><li><span><a href="#22.堆叠面积图" data-toc-modified-id="22.堆叠面积图-24">22.堆叠面积图</a></span></li><li><span><a href="#23.自定义线样式（LineStyleOpts）" data-toc-modified-id="23.自定义线样式（LineStyleOpts）-25">23.自定义线样式（LineStyleOpts）</a></span></li><li><span><a href="#24.-带阴影效果折线图" data-toc-modified-id="24.-带阴影效果折线图-26">24. 带阴影效果折线图</a></span></li><li><span><a href="#25.折线图平滑处理" data-toc-modified-id="25.折线图平滑处理-27">25.折线图平滑处理</a></span></li><li><span><a href="#26.-直方图带标记线(最大值，平均值等)" data-toc-modified-id="26.-直方图带标记线(最大值，平均值等)-28">26. 直方图带标记线(最大值，平均值等)</a></span></li><li><span><a href="#27.折线图带自定义标记点" data-toc-modified-id="27.折线图带自定义标记点-29">27.折线图带自定义标记点</a></span></li><li><span><a href="#28.折线图带标记区域" data-toc-modified-id="28.折线图带标记区域-30">28.折线图带标记区域</a></span></li><li><span><a href="#29.折线图带百分号显示" data-toc-modified-id="29.折线图带百分号显示-31">29.折线图带百分号显示</a></span></li><li><span><a href="#30.象形图自定义图形" data-toc-modified-id="30.象形图自定义图形-32">30.象形图自定义图形</a></span></li><li><span><a href="#31.水球图自定义图形" data-toc-modified-id="31.水球图自定义图形-33">31.水球图自定义图形</a></span></li><li><span><a href="#32.日历图自定义cell" data-toc-modified-id="32.日历图自定义cell-34">32.日历图自定义cell</a></span></li><li><span><a href="#33.日历图显示中文标签" data-toc-modified-id="33.日历图显示中文标签-35">33.日历图显示中文标签</a></span></li><li><span><a href="#34.GEO添加自定义坐标" data-toc-modified-id="34.GEO添加自定义坐标-36">34.GEO添加自定义坐标</a></span></li><li><span><a href="#35.GEO使用国外地图" data-toc-modified-id="35.GEO使用国外地图-37">35.GEO使用国外地图</a></span></li><li><span><a href="#36.GEO-带涟漪效果散点图" data-toc-modified-id="36.GEO-带涟漪效果散点图-38">36.GEO 带涟漪效果散点图</a></span></li><li><span><a href="#37.GEO热力图" data-toc-modified-id="37.GEO热力图-39">37.GEO热力图</a></span></li><li><span><a href="#38.GEO-线图" data-toc-modified-id="38.GEO-线图-40">38.GEO 线图</a></span></li><li><span><a href="#39.饼图自定义图形半径范围" data-toc-modified-id="39.饼图自定义图形半径范围-41">39.饼图自定义图形半径范围</a></span></li><li><span><a href="#40.饼图自定义数据标签" data-toc-modified-id="40.饼图自定义数据标签-42">40.饼图自定义数据标签</a></span></li><li><span><a href="#41.多饼图" data-toc-modified-id="41.多饼图-43">41.多饼图</a></span></li><li><span><a href="#42.散点图添加视觉组件（图形大小）" data-toc-modified-id="42.散点图添加视觉组件（图形大小）-44">42.散点图添加视觉组件（图形大小）</a></span></li><li><span><a href="#43.散点图添加视觉组件（图形大小&amp;颜色）" data-toc-modified-id="43.散点图添加视觉组件（图形大小&amp;颜色）-45">43.散点图添加视觉组件（图形大小&amp;颜色）</a></span></li><li><span><a href="#44.散点图添加视觉组件（图形大小&amp;颜色&amp;透明度）" data-toc-modified-id="44.散点图添加视觉组件（图形大小&amp;颜色&amp;透明度）-46">44.散点图添加视觉组件（图形大小&amp;颜色&amp;透明度）</a></span></li><li><span><a href="#45.自定义背景颜色" data-toc-modified-id="45.自定义背景颜色-47">45.自定义背景颜色</a></span></li><li><span><a href="#46.词云图自定义字体范围" data-toc-modified-id="46.词云图自定义字体范围-48">46.词云图自定义字体范围</a></span></li><li><span><a href="#47.Map带视觉组件" data-toc-modified-id="47.Map带视觉组件-49">47.Map带视觉组件</a></span></li><li><span><a href="#48.Page更改布局" data-toc-modified-id="48.Page更改布局-50">48.Page更改布局</a></span></li><li><span><a href="#49.一个Tab下带多个图表" data-toc-modified-id="49.一个Tab下带多个图表-51">49.一个Tab下带多个图表</a></span></li><li><span><a href="#50.Timeline-自动播放" data-toc-modified-id="50.Timeline-自动播放-52">50.Timeline 自动播放</a></span></li></ul></div>
-
-#### 前言
-
-* 总共50个完整pyecharts例子，包含一些常用的配置方法，每个cell都包含完整代码，可独立运行；
-
-* 为避免混淆，每个例子尽量只包含单一配置的代码；
-
-* 所有代码均基于`pyecharts V1.7.1`，不同版本间可能存在不兼容，如遇代码报错请优先确认是否版本问题；
+```python exec="true"
+import plotly.express as px
+import pandas as pd
 
 
-#### 1. 柱状图堆叠
+df = pd.DataFrame({'x': [1,2,3,4,5], 'y': [10,20,15,25,30]})
 
-* 不同系列的数据使用相同的stack值会堆叠在一起 ；
+# 创建图表
+fig = px.line(df, x='x', y='y', title='动态折线图')
 
+# 保存到 Obsidian 附件目录
+fig.write_html("assets/charts/plotly_chart.html")
 
-```python
-```python
-import micropip
-import asyncio
-
-# 异步安装 NumPy 和 Matplotlib
-async def setup():
-    await micropip.install('numpy')
-    await micropip.install('matplotlib')
-
-# 运行安装并执行代码
-asyncio.ensure_future(setup()).add_done_callback(lambda _: main())
-
-def main():
-    import numpy as np
-    import matplotlib.pyplot as plt
-    
-    x = np.linspace(0, 10, 100)
-    y = np.sin(x)
-    
-    plt.figure(figsize=(8, 4))
-    plt.plot(x, y, label='sin(x)')
-    plt.title('Sine Wave')
-    plt.legend()
-    
-    # 保存图像到虚拟文件系统（Pyodide 的特殊处理）
-    plt.savefig('sin_plot.png')
-    
-    # 在 Obsidian 中显示图片
-    print("![Sine Wave](sin_plot.png)")
-
-# 注意：Pyodide 环境下需要异步处理
+# 生成嵌入代码
+print('<iframe src="assets/charts/plotly_chart.html" width="100%" height="400"></iframe>')
 ```
+
 ```
 
 
-<ifranme>
+
+
 
 <!DOCTYPE html>
 <html>
