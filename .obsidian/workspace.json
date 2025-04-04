@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "content/zh-cn/posts/my-first-post.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -197,10 +197,10 @@
       "jupyter:Create Jupyter Notebook": false
     }
   },
-  "active": "a63376a61eb24bee",
+  "active": "b48ca0e6066b8f81",
   "lastOpenFiles": [
-    "content/zh-cn/posts/优衣库门店可视化与顾客拜访数据分组/优衣库门店可视化与顾客拜访数据分组.md",
     "content/zh-cn/posts/my-first-post.md",
+    "content/zh-cn/posts/优衣库门店可视化与顾客拜访数据分组/优衣库门店可视化与顾客拜访数据分组.md",
     "public/zh-cn/posts/优衣库门店可视化与顾客拜访数据分组/优衣库门店可视化与顾客拜访数据分组/index.md",
     "public/zh-cn/posts/优衣库门店可视化与顾客拜访数据分组/优衣库门店可视化与顾客拜访数据分组/index.html",
     "public/zh-cn/posts/优衣库门店可视化与顾客拜访数据分组/优衣库门店可视化与顾客拜访数据分组",

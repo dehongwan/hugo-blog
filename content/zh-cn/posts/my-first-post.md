@@ -37,3 +37,18 @@ repost:
   enable: true
   url:
 ---
+
+```python exec="true"
+import numpy as np
+import matplotlib.pyplot as plt
+
+x = np.linspace(0, 10, 100)
+plt.plot(x, np.sin(x))
+plt.savefig('sin_plot.png')  # 保存图片
+print("![sin wave](sin_plot.png)")  # 嵌入图片
+```
+
+```jupyter
+import numpy as np
+plt.plot(np.sin(np.linspace(0, 10, 100)))
+```
