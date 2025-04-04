@@ -34,9 +34,9 @@ a = np.random.rand(3,2)
 b = np.random.rand(2,5)
 
 print(a@b)
-
 ```
-```python exec="true"
+
+```python 
 from pyecharts.charts import Bar
 
 attr = ['衬衫', '羊毛衫', '雪纺衫', '裤子', '高跟鞋', '袜子']
@@ -49,4 +49,8 @@ bar.add_yaxis("商家B", v2)
 
 chart = bar_stack()
 chart.render_notebook()
+```
+
+```python
+print("Hello, Obsidian!")
 ```
