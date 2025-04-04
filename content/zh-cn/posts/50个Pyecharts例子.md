@@ -18,8 +18,12 @@
 
 
 ```python
+# -*- coding: utf-8 -*-
 from pyecharts.charts import Bar
+from pyecharts.render import make_snapshot
+from snapshot_phantomjs import snapshot
 
+# 生成图表
 attr = ['衬衫', '羊毛衫', '雪纺衫', '裤子', '高跟鞋', '袜子']
 v1 = [5, 20, 36, 10, 75, 90]
 v2 = [10, 25, 8, 60, 20, 80]
@@ -28,10 +32,8 @@ bar.add_xaxis(attr)
 bar.add_yaxis("商家A", v1)
 bar.add_yaxis("商家B", v2)
 
-
-bar.load_javascript()
-from IPython.display import HTML
-HTML(bar.render_embed())
+# 保存为图片（需先安装 phantomjs）
+make_snapshot(snapshot, bar.render(), "bar_chart.png")
 ```
 
 
