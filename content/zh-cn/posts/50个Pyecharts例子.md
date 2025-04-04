@@ -18,26 +18,42 @@
 
 
 ```python
-# -*- coding: utf-8 -*-
-from pyecharts.charts import Bar
-from pyecharts import options as opts
-from pyecharts.faker import Faker
+```python
+import micropip
+import asyncio
 
-def bar_stack():
-    bar = Bar(init_opts=opts.InitOpts(theme='light', width='1000px', height='600px'))
-    bar.add_xaxis(Faker.choose())
-    bar.add_yaxis('A', Faker.values(), stack='stack1')
-    bar.add_yaxis('B', Faker.values(), stack='stack1')
-    bar.add_yaxis('C', Faker.values(), stack='stack2')
-    bar.set_global_opts(title_opts=opts.TitleOpts(title="堆叠柱状图"))
-    return bar
+# 异步安装 NumPy 和 Matplotlib
+async def setup():
+    await micropip.install('numpy')
+    await micropip.install('matplotlib')
 
-# 保存为 HTML 文件
-bar_stack().render("stacked_bar.html")
+# 运行安装并执行代码
+asyncio.ensure_future(setup()).add_done_callback(lambda _: main())
+
+def main():
+    import numpy as np
+    import matplotlib.pyplot as plt
+    
+    x = np.linspace(0, 10, 100)
+    y = np.sin(x)
+    
+    plt.figure(figsize=(8, 4))
+    plt.plot(x, y, label='sin(x)')
+    plt.title('Sine Wave')
+    plt.legend()
+    
+    # 保存图像到虚拟文件系统（Pyodide 的特殊处理）
+    plt.savefig('sin_plot.png')
+    
+    # 在 Obsidian 中显示图片
+    print("![Sine Wave](sin_plot.png)")
+
+# 注意：Pyodide 环境下需要异步处理
+```
 ```
 
 
-
+<ifranme>
 
 <!DOCTYPE html>
 <html>
