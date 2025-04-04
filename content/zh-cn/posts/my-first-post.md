@@ -1,54 +1,43 @@
 ---
-title: My First Post
-subtitle: 
-date: 2025-03-15T22:53:50+08:00
-slug: 583bc6c
-draft: false
 author:
-  name: 
-  link: 
-  email: 
-  avatar: 
-description: 
-keywords: 
-license: 
-comment: false
-weight: 0
-tags:
-  - python
 categories:
-  - draft
-hiddenFromHomePage: false
-hiddenFromSearch: false
-hiddenFromRelated: false
+- draft
+comment: false
+date: "2025-03-15T22:53:50+08:00"
+draft: false
 hiddenFromFeed: false
-summary: 
-resources:
-  - name: featured-image
-    src: featured-image.jpg
-  - name: featured-image-preview
-    src: featured-image-preview.jpg
-toc: true
-math: false
+hiddenFromHomePage: false
+hiddenFromRelated: false
+hiddenFromSearch: false
 lightgallery: false
-password: 
-message: 
+math: false
 repost:
   enable: true
-  url:
+resources:
+- name: featured-image
+  src: featured-image.jpg
+- name: featured-image-preview
+  src: featured-image-preview.jpg
+slug: 583bc6c
+tags:
+- python
+title: My First Post
+toc: true
+weight: 0
 ---
 
-```python exec="true"
+
+
+\`\`\`python exec="true"
 import numpy as np
 import matplotlib.pyplot as plt
 
 x = np.linspace(0, 10, 100)
 plt.plot(x, np.sin(x))
-plt.savefig('sin_plot.png')  # 保存图片
-print("![sin wave](sin_plot.png)")  # 嵌入图片
-```
+plt.savefig('sin_plot.png') \# 保存图片
+print("![sin wave](sin_plot.png)") \# 嵌入图片
 
-```jupyter
-import numpy as np
-plt.plot(np.sin(np.linspace(0, 10, 100)))
-```
+
+    ```jupyter
+    import numpy as np
+    plt.plot(np.sin(np.linspace(0, 10, 100)))
