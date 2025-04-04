@@ -20,31 +20,20 @@
 ```python
 # -*- coding: utf-8 -*-
 from pyecharts.charts import Bar
-from pyecharts.render import make_snapshot
-from snapshot_phantomjs import snapshot
-
-# 生成图表
-
-from pyecharts.charts import *
 from pyecharts import options as opts
 from pyecharts.faker import Faker
 
-
 def bar_stack():
-    bar = Bar(init_opts=opts.InitOpts(theme='light',
-                                      width='1000px',
-                                      height='600px'))
+    bar = Bar(init_opts=opts.InitOpts(theme='light', width='1000px', height='600px'))
     bar.add_xaxis(Faker.choose())
-    # stack值一样的系列会堆叠在一起
     bar.add_yaxis('A', Faker.values(), stack='stack1')
     bar.add_yaxis('B', Faker.values(), stack='stack1')
     bar.add_yaxis('C', Faker.values(), stack='stack2')
+    bar.set_global_opts(title_opts=opts.TitleOpts(title="堆叠柱状图"))
     return bar
 
-
-
-chart = bar_stack()
-chart.render_notebook()
+# 保存为 HTML 文件
+bar_stack().render("stacked_bar.html")
 ```
 
 
