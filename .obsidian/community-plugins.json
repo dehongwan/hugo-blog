@@ -3,5 +3,6 @@
   "obsidian-image-auto-upload-plugin",
   "quickadd",
   "hugo-publish",
-  "obsidian-mkdocs-publisher"
+  "obsidian-mkdocs-publisher",
+  "code-emitter"
 ]
