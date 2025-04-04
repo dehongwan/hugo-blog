@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/2025/03/python基础一.md",
+                "file": "content/posts/2018-02-04-机器学习与大数据训练营第一次辅导.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "python基础一"
+              "title": "2018-02-04-机器学习与大数据训练营第一次辅导"
             }
           }
         ]
@@ -94,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 459.5
   },
   "right": {
     "id": "f461073de21f068e",
@@ -197,25 +197,17 @@
   },
   "active": "b48ca0e6066b8f81",
   "lastOpenFiles": [
-    "未命名.canvas",
-    "content/posts/2025/03/python基础一.md",
-    "content/posts/2025/03/python-python-xlwings学习.md",
-    "content/posts/2025/03/power bi 模型.md",
-    "content/posts/2025/03/工作经验总结.md",
-    "content/posts/basic-markdown-syntax/index.en.md",
-    "content/posts/basic-markdown-syntax/featured-image.png",
-    "public/images/version/0.2.0-new.zh-cn.min.svg",
-    "public/images/version/0.2.0-new.en.min.svg",
-    "public/images/version",
-    "public/lib/webfonts/fa-v4compatibility.woff2",
-    "public/lib/webfonts/fa-v4compatibility.ttf",
-    "public/lib/webfonts/fa-solid-900.woff2",
-    "public/lib/webfonts/fa-solid-900.ttf",
-    "public/lib/webfonts/fa-regular-400.woff2",
-    "public/lib/webfonts/fa-regular-400.ttf",
-    "public/lib/webfonts/fa-brands-400.woff2",
-    "public/lib/webfonts/fa-brands-400.ttf",
-    "public/lib/webfonts",
+    "public/lib/katex/fonts/KaTeX_Size3-Regular.woff2",
+    "public/lib/katex/fonts/KaTeX_Size3-Regular.woff",
+    "public/lib/katex/fonts/KaTeX_Size3-Regular.ttf",
+    "public/lib/katex/fonts/KaTeX_Size2-Regular.woff2",
+    "public/lib/katex/fonts/KaTeX_Size2-Regular.woff",
+    "public/lib/katex/fonts/KaTeX_Size2-Regular.ttf",
+    "public/lib/katex/fonts/KaTeX_Size1-Regular.woff2",
+    "public/lib/katex/fonts/KaTeX_Size1-Regular.woff",
+    "public/lib/katex/fonts/KaTeX_Size1-Regular.ttf",
+    "public/lib/katex/fonts/KaTeX_Script-Regular.woff2",
+    "public/lib/katex/fonts/KaTeX_Script-Regular.woff",
     "public/zh-cn/posts/读书笔记之-皮囊/index.md",
     "public/zh-cn/posts/观影红海/index.md",
     "public/zh-cn/posts/睡-神-大法/index.md",
@@ -233,15 +225,24 @@
     "public/posts/读书笔记之-皮囊/index.md",
     "public/posts/观影红海/index.md",
     "public/posts/睡-神-大法/index.md",
-    "public/posts/千寻的数学规划/index.md",
     "public/posts/山姆和佛罗多/index.md",
+    "public/posts/千寻的数学规划/index.md",
     "public/posts/北方的空地-无人之地的一人之旅/index.md",
     "public/posts/冬日乡野/index.md",
     "public/posts/theme-documentation-echarts-shortcode/index.md",
     "public/posts/theme-documentation-echarts-shortcode/featured-image.jpg",
     "public/posts/r数据结构/index.md",
+    "public/posts/basic-markdown-syntax/index.md",
     "public/posts/basic-markdown-syntax/featured-image.png",
+    "public/posts/2018-01-29-骑征烟威蓬/index.md",
+    "public/images/fixit.min.svg",
+    "public/images/hugo.min.svg",
     "public/images/avatar2.png",
-    "public/lib/lightgallery/images/loading.gif"
+    "public/lib/lightgallery/images/loading.gif",
+    "public/lib/lightgallery/fonts/lg.svg",
+    "content/posts/2018-01-26-r数据结构.md",
+    "content/posts/50个Pyecharts例子.md",
+    "content/posts/2017-12-07-读书笔记之-皮囊.md",
+    "未命名.canvas"
   ]
 }

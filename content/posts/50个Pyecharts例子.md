@@ -1,24 +1,3 @@
----
-title: 机器学习与大数据训练营第一次辅导
-author: "德宏 "
-date: 2018-02-04
-slug: 机器学习与大数据训练营第一次辅导
-categories:
-  - R
-tags:
-  - python
-draft: yes
----
-
-```bash
-
-xv<-1:100
-min(abs(xv-108))
-abs(xv-108)==min(abs(xv-108))#==:判断是否相等，自己敲，从里到外剥茧似的看代码
-which(abs(xv-108)==min(abs(xv-108)))#
-
-```
-
 
 
 <h1>Table of Contents<span class="tocSkip"></span></h1>
