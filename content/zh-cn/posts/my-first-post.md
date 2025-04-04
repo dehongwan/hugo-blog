@@ -28,12 +28,30 @@ weight: 0
 
 
 
-```python
-import numpy as np
-a = np.random.rand(3,2)
-b = np.random.rand(2,5)
+```javascript
+// 需要Obsidian启用JavaScript渲染
+const chartDiv = document.createElement('div');
+chartDiv.id = 'myChart';
+document.body.appendChild(chartDiv);
 
-print(a@b)
+// 动态加载Chart.js
+const script = document.createElement('script');
+script.src = 'https://cdn.jsdelivr.net/npm/chart.js';
+script.onload = () => {
+    const ctx = document.getElementById('myChart').getContext('2d');
+    new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May'],
+            datasets: [{
+                label: 'Sales 2023',
+                data: [12, 19, 3, 5, 2],
+                borderWidth: 1
+            }]
+        }
+    });
+};
+document.head.appendChild(script);
 ```
 
 ```python 
